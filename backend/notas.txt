@@ -1,0 +1,458 @@
+ <section id="tienda" class="shop">
+      <h2>Nuestra Tienda</h2>
+      <div class="shop-grid">
+        <div class="product-card">
+          <img src="/frontend/img/IMG-20241205-WA0003.jpg" alt="producto" />
+          <div class="product-content">
+            <h3>producto</h3>
+            <p class="price">$29.99</p>
+            <p>descripcion</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="/frontend/img/IMG-20241205-WA0010.jpg" alt="producto" />
+          <div class="product-content">
+            <h3>producto</h3>
+            <p class="price">$19.99</p>
+            <p>descripcion</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="/frontend/img/IMG-20241205-WA0009.jpg" alt="producto"/>
+          <div class="product-content">
+            <h3>descripcion</h3>
+            <p class="price">$39.99</p>
+            <p>descripcion</p>
+            <a href="#" class="btn">Comprar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    #----------------------------------------------------------------
+    <style>
+        /* Fondo de degradado */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-size: 100%;
+            animation: cambioDeFondo 20s infinite;
+           
+        }
+        
+
+        @keyframes cambioDeFondo {
+        0% {
+             background-image: url("f.png");
+                        }
+                    25% {
+            background-image: url("fo.png");
+                        }
+                50% {
+            background-image: url("f.png");
+                        }
+                 75% {
+            background-image: url("fo.png");
+                        }
+                100% {
+            background-image: url("f.png"); /* Vuelve a la primera imagen */
+  }
+}
+
+
+
+
+      
+
+
+
+        /* Contenedor del formulario de login */
+        .login-container {
+            background-color: #fff;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        /* Título */
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        /* Estilo de los campos de entrada */
+        .login-container input[type="text"],
+        .login-container input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        /* Enlace de "¿Olvidaste tu contraseña?" */
+        .login-container a {
+            display: block;
+            margin: 15px 0;
+            color: #e53935;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .login-container a:hover {
+            text-decoration: underline;
+        }
+
+        /* Botón de inicio de sesión */
+        .login-container button {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(135deg, #e53935, #e35d5b);
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .login-container button:hover {
+            background: linear-gradient(135deg, #e35d5b, #e53935);
+        }
+
+        /* Estilo para el botón de registrar */
+        .login-container input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background: linear-gradient(135deg, #42a5f5, #1e88e5); /* Color diferente para el botón de registrar */
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .login-container input[type="button"]:hover {
+            background: linear-gradient(135deg, #1e88e5, #42a5f5); /* Cambio de color en hover */
+        }
+
+        /* Estilos para la ventana modal */
+        .modal {
+            display: none; /* Oculta la ventana por defecto */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            padding: 10px 500px;
+        }
+
+        .modal-content {
+            background-color: rgb(8, 58, 65);
+            padding: 20px;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+            width: 100%;
+            height: 50%;
+        }
+
+        .close-btn {
+            color: rgb(236, 10, 10);
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            float: right;
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+        }
+        .centrarr{
+            position: absolute;
+            top: 40%;
+            text-align: center;
+            
+        }    
+        
+        .checkS{
+            border-radius: 5px;
+        }
+
+
+    </style>
+
+
+#--------------------------------------
+<section class="services container">
+        <div>
+            <img src="img/desarrollo1" alt="desarrollo1">
+            <h3>lorem</h3>
+            <p>Texto de prueba1</p>
+        </div>
+        <div>
+            <img src="img/desarrollo2" alt="desarrollo2">
+            <h3>lorem</h3>
+            <p>Texto de prueba2</p>
+        </div>
+        <div>
+            <img src="img/desarrollo3" alt="desarrollo3">
+            <h3>lorem</h3>
+            <p>Texto de prueba3</p>
+        </div>
+        <div>
+            <img src="img/desarrollo4" alt="desarrollo4">
+            <h3>lorem</h3>
+            <p>Texto de prueba4</p>
+        </div>
+        <div>
+            <img src="img/desarrollo5" alt="desarrollo5">
+            <h3>lorem</h3>
+            <p>Texto de prueba5</p>
+        </div>
+        <div>
+            <img src="img/desarrollo6" alt="desarrollo6">
+            <h3>lorem</h3>
+            <p>Texto de prueba6</p>
+        </div>
+    </section>
+
+#------------------------------------
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilos del encabezado */
+  .header {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .back-video {
+    position: absolute;
+    top: 01;
+    left: 01;
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .header-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .header-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .buttons a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Estilos de la sección de servicios */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 50px 0;
+  }
+  
+  .services div {
+    text-align: center;
+  }
+  
+  .services img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos de la sección "Nosotros" */
+  .about {
+    background-color: #fff5f5;
+    padding: 50px 0;
+  }
+  
+  .abaut-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .about-text {
+    padding-right: 20px;
+  }
+  
+  .about-img img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilos de la sección de testimonios */
+  .testimonial {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .testimonial-contaier {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .testimonial-1 {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .testimonial-1 img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  /* Estilos de la sección de información */
+  .information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 50px 0;
+  }
+  
+  .information-text {
+    padding-right: 20px;
+  }
+  
+  information form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  information input,
+  information textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  information-img video {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  /* Estilos del pie de página */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .link h3 {
+    margin-bottom: 10px;
+  }
+  
+  .link ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .link a {
+    text-decoration: none;
+    color: #fff;
+  }

@@ -1,3 +1,0 @@
- <button type="button" class="btn btn-info" onclick="location.href = 'add.html'">
-            <img src='imagenes/add.png' height="30" width="30"/>Agregar
-        </button>
